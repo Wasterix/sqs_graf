@@ -1,7 +1,7 @@
 package IntegrationTests;
 
 import org.junit.jupiter.api.Test;
-import org.apache.maven.InputHandler;
+import project.InputHandler;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;

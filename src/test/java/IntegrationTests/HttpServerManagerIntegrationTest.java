@@ -6,7 +6,7 @@ import com.sun.net.httpserver.HttpServer;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.apache.maven.HttpServerManager;
+import project.HttpServerManager;
 
 import java.io.*;
 import java.net.HttpURLConnection;

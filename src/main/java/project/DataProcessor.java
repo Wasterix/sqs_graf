@@ -1,4 +1,4 @@
-package org.apache.maven;
+package project;
 
 public class DataProcessor {
     public void processInput(String inputName, String teamId, String inputSeason, String year) {

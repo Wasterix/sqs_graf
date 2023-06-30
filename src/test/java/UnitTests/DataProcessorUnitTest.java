@@ -1,7 +1,7 @@
 package UnitTests;
 
 import org.junit.jupiter.api.Test;
-import org.apache.maven.DataProcessor;
+import project.DataProcessor;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

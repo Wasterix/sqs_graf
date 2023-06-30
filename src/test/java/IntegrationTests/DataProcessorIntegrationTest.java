@@ -1,8 +1,8 @@
 package IntegrationTests;
 
 import org.junit.jupiter.api.Test;
-import org.apache.maven.DataProcessor;
-import org.apache.maven.LookupTable;
+import project.DataProcessor;
+import project.LookupTable;
 
 
 import java.io.ByteArrayOutputStream;

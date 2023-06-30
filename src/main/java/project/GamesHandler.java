@@ -1,4 +1,4 @@
-package org.apache.maven;
+package project;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,7 +1,7 @@
 /*package UnitTests;
 
 import com.sun.net.httpserver.HttpExchange;
-import org.apache.maven.GamesHandler;
+import project.GamesHandler;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;

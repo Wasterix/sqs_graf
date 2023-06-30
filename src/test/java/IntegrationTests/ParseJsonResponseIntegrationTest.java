@@ -1,7 +1,7 @@
 package IntegrationTests;
 
 import org.junit.jupiter.api.Test;
-import org.apache.maven.ParseJsonResponse;
+import project.ParseJsonResponse;
 
 import java.io.IOException;
 

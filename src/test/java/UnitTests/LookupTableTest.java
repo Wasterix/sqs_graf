@@ -1,7 +1,7 @@
 package UnitTests;
 
 import org.junit.jupiter.api.Test;
-import org.apache.maven.LookupTable;
+import project.LookupTable;
 
 import static org.junit.jupiter.api.Assertions.*;
 

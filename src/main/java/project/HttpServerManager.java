@@ -1,4 +1,4 @@
-package org.apache.maven;
+package project;
 
 import com.sun.net.httpserver.HttpServer;
 

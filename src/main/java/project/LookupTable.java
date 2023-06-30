@@ -1,4 +1,4 @@
-package org.apache.maven;
+package project;
 
 import java.util.HashMap;
 import java.util.Map;

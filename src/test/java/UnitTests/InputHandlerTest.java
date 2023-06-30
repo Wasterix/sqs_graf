@@ -3,7 +3,7 @@ package UnitTests;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
-import org.apache.maven.InputHandler;
+import project.InputHandler;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
