@@ -30,3 +30,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: dependency-check-report
+          path: /home/runner/work/sqs_graf/sqs_graf/target/dependency-check-report.html
