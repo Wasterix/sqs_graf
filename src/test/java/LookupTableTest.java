@@ -1,5 +1,3 @@
-package UnitTests;
-
 import org.junit.jupiter.api.Test;
 import project.LookupTable;
 
