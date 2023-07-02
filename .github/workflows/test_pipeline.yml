@@ -35,10 +35,14 @@ jobs:
           path: ~/.m2
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
+      - name: Install dependencies
+        run: mvn install
+      - name: Build Project
+        run: mvn package
 
       - name: Run unittests, Integration and Availability Test
         run: mvn test
-        
+
       - name: Static Code Analysis
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
