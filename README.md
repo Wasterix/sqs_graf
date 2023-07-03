@@ -11,8 +11,9 @@
 Der Aufbau dieser Dokumentation orientiert sich am offiziellen [Arc42-Template](https://docs.arc42.org/home/)
 
 ## Kapitel 0: Voraussetzungen
-Folgende Softwarevoraussetzungen müssen zum lokalen Testen der Anwendung gegeben sein: 
+Folgende Voraussetzungen müssen zum lokalen Testen der Anwendung gegeben sein: 
 - Java JDK 20
+- Aktive Internetverbindung
 
 ## Kapitel 1: Einleitung
 ### Fachliche Anforderungen
@@ -55,8 +56,8 @@ Das Containerdiagramm stellt die größeren Container oder Komponenten dar, aus 
 
 ![Containerdiagramm](images/Containerdiagramm.png)
 
-### Komponentendiagramm (Level 3)
-todo
+### Komponentendiagramm und Codediagramm (Level 3 und Level4)
+Kompenenten- und Codediagramm sind in dieser Dokumentation nicht dargestellt, weil durch Kontext- und Containerdiagramm bereits ein ausreichend guter Einblick in die Anwendung gewährleistet wird. 
 
 ## Kapitel 4: Lösungsstrategie
 ### Technische Entscheidungen
