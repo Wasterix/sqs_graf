@@ -180,12 +180,17 @@ Die Qualitätsziele sind durch folgende Maßnahmen und Tests gesichert. Die Test
 - Ordner: src/test/java/Integrationstests
 - Bemerkung: Das Zusammenspiel der einzelnen Komponenten wurde überprüft und sichergestellt, dass diese korrekt funktionieren, wenn sie zusammenarbeiten.
 
-### Monkeytest (Konsoleneingabe)
-- Bemerkung: Ein Monkeytest wurde durchgeführt, um die Robustheit der Anwendung hinsichtlich möglicher Fehleingaben zu testen. Dies ermöglichte die Identifizierung potenzieller Schwachstellen, auf die der Entwickler möglicherweise nicht gekommen wäre. Der Test wurde von Dritten ohne spezifische Einweisung durchgeführt, die aufgefordert wurden, die Anwendung mit beliebigen Eingaben zu testen und mögliche Fehlfunktionen zu provozieren.
-
 ### Statische Codeanalyse
 - Tool: Sonarcloud, GitHub Actions
-- Ordner: .github/workflows, testing.yml
-- Bemerkung: In der CI-Pipeline wird mithilfe von Github Actions eine Verbindung zu Sonarcloud hergestellt. Bei jedem Push- oder Pullereignis wird der Code überprüft. Es wird eine statische Codeanalyse ausgelöst, deren Ergebnis auf Sonarcloud zu sehen ist. 
+- Ordner: .github/workflows\testing.yml
+- Bemerkung: In der CI-Pipeline wird mithilfe von Github Actions eine Verbindung zu Sonarcloud hergestellt. Bei jedem Push- oder Pullereignis wird der Code überprüft. Es wird eine statische Codeanalyse ausgelöst, deren Ergebnis auf Sonarcloud zu sehen ist.
+
+### Securitytests
+- Tool: OWASP Dependency Check
+- Testskript: .github\workflows\dependency.yml
+- Bemerkung: Der Dependency Check ist in einen Workflow in Githob realisiert. Dadurch wird nach Sicherheitslücken in den Dependencies gesucht.
+
+### Monkeytest (Konsoleneingabe)
+- Bemerkung: Ein Monkeytest wurde durchgeführt, um die Robustheit der Anwendung hinsichtlich möglicher Fehleingaben zu testen. Dies ermöglichte die Identifizierung potenzieller Schwachstellen, auf die der Entwickler möglicherweise nicht gekommen wäre. Der Test wurde von Dritten ohne spezifische Einweisung durchgeführt, die aufgefordert wurden, die Anwendung mit beliebigen Eingaben zu testen und mögliche Fehlfunktionen zu provozieren.
 
 
